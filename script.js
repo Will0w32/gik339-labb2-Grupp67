@@ -32,6 +32,7 @@ for (let input of textElements) {
 function changeColorOrPrintInDiv(e) {
   const value = e.target.value;
   const fieldName = e.target.name;
+  console.log(fieldName)
 
   if (fieldName === "color") {
     colorOfDiv = value;
